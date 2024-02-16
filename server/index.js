@@ -12,7 +12,6 @@ dotenv.config();
 app.use(cors({
   origin:["https://neonflake-client.vercel.app"],
   methods:["POST","GET"],
-  credentials:true,
   Access-Control-Allow-Origin: *,
 }));
 app.use(express.json({ limit: "25mb" }));
