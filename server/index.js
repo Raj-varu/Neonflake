@@ -20,7 +20,7 @@ app.get("/", (req, res) => {
   res.send("Working");
 });
 // Routes
-app.use("/api/v1", masterRouter);
+app.use("/api/v1/", masterRouter);
 
 // Start server
 app.listen(process.env.PORT, () => {
