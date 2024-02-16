@@ -10,7 +10,8 @@ dotenv.config();
 
 // Middleware's
 app.use(cors({
-  origin:"*",
+ origin: "https://neonflake-client.vercel.app",
+ credentials: true
 }));
 app.use(express.json({ limit: "25mb" }));
 app.use(express.urlencoded({ limit: "25mb", extended: true }));
