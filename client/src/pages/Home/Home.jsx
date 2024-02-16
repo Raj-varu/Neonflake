@@ -13,7 +13,7 @@ const Home = () => {
     e.preventDefault();
     try {
       setImageState("loading"); // Set image state to loading when request is made
-      const response = await axios.post("http://localhost:8080/generate", {
+      const response = await axios.post("https://neonflake-umber.vercel.app/api/v1/generate", {
         url: url,
       });
       setTimeSize({
