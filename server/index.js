@@ -12,7 +12,8 @@ dotenv.config();
 app.use(cors({
   origin:["https://neonflake-client.vercel.app"],
   methods:["POST","GET"],
-  credentials:true
+  credentials:true,
+  Access-Control-Allow-Origin: *,
 }));
 app.use(express.json({ limit: "25mb" }));
 app.use(express.urlencoded({ limit: "25mb", extended: true }));
@@ -22,7 +23,7 @@ app.get("/", (req, res) => {
   res.send("Working");
 });
 // Routes
-app.use("/api/v1/", masterRouter);
+app.use("/api/v1", masterRouter);
 
 // Start server
 app.listen(process.env.PORT, () => {
