@@ -10,8 +10,7 @@ Explore our client application: [Neonflake Client](https://neonflake-client.verc
 ### Server
 Check out our server application: [Neonflake Server](https://neonflake-umber.vercel.app/)
 
-### Demo of Project
-
+### Demo of Project Click on image to watch video
 [![Neonflake Demo](https://img.youtube.com/vi/iCgQAghgm98/maxresdefault.jpg)](https://youtu.be/iCgQAghgm98)
 
 Click on the image above to watch the demo of our project on YouTube.
