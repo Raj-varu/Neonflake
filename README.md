@@ -2,7 +2,7 @@
 
 Welcome to Neonflake! Neonflake is a project that requires specific environment variables to be set.
 
-## Note: There is some issue in deploying on Vercel. The CORS error is fixed but needs to look at read and write permissions on Vercel (working on it).
+## Note: There is some issue in deploying on Vercel. The CORS error is fixed but needs to look at read and write permissions on Vercel (working on it) Its Working Fine in local environment.
 
 ### Client
 Explore our client application: [Neonflake Client](https://neonflake-client.vercel.app/)
