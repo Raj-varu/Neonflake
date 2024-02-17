@@ -14,7 +14,7 @@ const pikwyService = async (req, res) => {
       responseType: "stream",
     });
 
-    // Create a writable stream to save the image
+    //writable stream
     const imagePath = path.join(__dirname, "tmp", "downloaded_image.jpg");
     const writer = fs.createWriteStream(imagePath);
 
