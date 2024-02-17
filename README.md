@@ -1,12 +1,17 @@
 # Neonflake
 
-Welcome to Neonflake! is a project that requires specific environment variables to be set.
+Welcome to Neonflake! Neonflake is a project that requires specific environment variables to be set.
+
+## Note: There is some issue in deploying on Vercel. The CORS error is fixed but needs to look at read and write permissions on Vercel (working on it).
 
 ### Client
 Explore our client application: [Neonflake Client](https://neonflake-client.vercel.app/)
 
 ### Server
 Check out our server application: [Neonflake Server](https://neonflake-umber.vercel.app/)
+
+### Demo of Project
+Watch the demo of our project on YouTube: [Neonflake Demo](https://youtu.be/iCgQAghgm98)
 
 ### Environment Variables
 
@@ -24,8 +29,8 @@ To get started with Neonflake, follow these steps:
 
 1. Clone this repository.
 2. Set the required environment variables as mentioned above.
-3. Change the cors setting in server
-4. Change the api url in client side
+3. Change the CORS setting in the server.
+4. Change the API URL in the client-side.
 5. Run the application!
 
 Happy coding! 🚀
