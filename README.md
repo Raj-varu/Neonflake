@@ -11,8 +11,10 @@ Explore our client application: [Neonflake Client](https://neonflake-client.verc
 Check out our server application: [Neonflake Server](https://neonflake-umber.vercel.app/)
 
 ### Demo of Project
-Watch the demo of our project on YouTube: 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/iCgQAghgm98" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+[![Neonflake Demo](https://img.youtube.com/vi/iCgQAghgm98/maxresdefault.jpg)](https://youtu.be/iCgQAghgm98)
+
+Click on the image above to watch the demo of our project on YouTube.
 
 ### Environment Variables
 
